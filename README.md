@@ -16,9 +16,9 @@
 
 ![](img/Screen%20Shot%202022-09-28%20at%208.49.06%20PM.png)
 
-![](img/Screen%20Shot%202022-09-28%20at%208.54.01%20PM.png)
+![](img/Screen%20Shot%202022-09-28%20at%208.51.11%20PM.png)
 
-![](img/Screen%20Shot%202022-09-28%20at%208.49.06%20PM.png)
+![](img/Screen%20Shot%202022-09-28%20at%208.54.01%20PM.png)
 
 ![](img/Screen%20Shot%202022-09-28%20at%208.56.50%20PM.png)
 
