@@ -31,7 +31,7 @@
 |  | H | 1hr | hr |
 | Main navigation | H | 2hr | hr |
 | Layout and flex | H | 4hr | hr | 
-| Special effect on banner/introduction | M | 1.5hr|  hr | 
+| Special effect/function on banner/introduction | M | 1.5hr|  hr | 
 | Email icon| M | 3hr | hr|
 | Responsiveness | H | 3hr | hr | hr |
 | Project links | L | 1hr |  hr |
