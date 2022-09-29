@@ -1,4 +1,4 @@
-# Portfolio Readme 
+# Portfolio-AlyssaCervantes Readme 
 
 
 ## Project Schedule
@@ -16,6 +16,11 @@
 
 ![](img/Screen%20Shot%202022-09-28%20at%208.49.06%20PM.png)
 
+![](img/Screen%20Shot%202022-09-28%20at%208.54.01%20PM.png)
+
+![](img/Screen%20Shot%202022-09-28%20at%208.49.06%20PM.png)
+
+![](img/Screen%20Shot%202022-09-28%20at%208.56.50%20PM.png)
 
 
 ## Time/Priority Matrix 
@@ -25,20 +30,20 @@
 | --- | :---: |  :---: | :---: | 
 |  | H | 1hr | hr |
 | Main navigation | H | 2hr | hr |
-| layout and flex | H | 4hr | hr | 
-| Interactive banner | M | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| Layout and flex | H | 4hr | hr | 
+| Special effect on banner/introduction | M | 1.5hr|  hr | 
+| Email icon| M | 3hr | hr|
 | Responsiveness | H | 3hr | hr | hr |
 | Project links | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Total | H | 14.5hrs| hrs |
 
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Special effects on project preview | L | 3hr | -hr | hr |
+| Project previews | L | 3hr | -hr | hr |
 | Social media icon function | M | 4hr | hr |
-| Email subscribe form | L | 4hr | hr |
+| Email submission form | L | 4hr | hr |
 | Total | H | 20hrs| hrs |
 
 
