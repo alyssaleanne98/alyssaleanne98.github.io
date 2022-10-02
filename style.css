@@ -1,6 +1,11 @@
 html{ 
     scroll-behavior: smooth;
 }
+@media (min-width: 600px){
+    .column {
+        width: 50%;
+    }
+}
 body{
     margin: 0; 
     padding: 0; 
@@ -9,11 +14,12 @@ body{
 nav{
     width: 100%;
     top: 0;
-    background: white;
+    background: rgb(247, 240, 226);
     overflow: hidden;
     position: fixed; 
     border-style: ridge;
-    border-color:black;
+    z-index: 9999;
+    border-color:rgb(4, 3, 2);
     border-width: thin;
 }
 ul{
@@ -37,41 +43,53 @@ a{
 }
 #page1{ 
     height: 800px;
-    background: rgba(51, 97, 51, 0.851); 
+    background: rgb(247, 240, 226); 
     display: inline-block;
     width: 100%;  
 }
-.one-header{
-    margin: 100px; 
-    text-align: center;
+.first-header{
+    margin: 150px; 
+    text-align: right;
     padding: 0;  
+    position: absolute;
+    margin-left: 10px;
 }
-.oval{
-    width: 295px;
-    height: 495px;
-    border-radius: 50%;
-    margin: 5px 0px 5px 0; 
-    float: left;
-    border-width: thick;
-    border-color: black;
-    background-color: rgb(239, 227, 210);
+.rectangle1{
+    width: 550px;
+    height: 440px;
+    position: absolute;
+    right: 85px;
+    bottom: 150px;
+    display: inline-block;
+    background-color: rgb(177, 213, 198);
+}
+.rectangle2{
+    width: 550px;
+    height: 440px;
+    position: absolute;
+    top: 20%;
+    right: 100px;
+    bottom: 2000px;
+    background: rgb(227, 213, 195);
+
+
 }
 
 #page2{ 
     height: 755px;
-    background: white; 
+    background: rgb(227, 213, 195); 
     display: inline-block;
     width: 100%;  
 }
 #page3{ 
     height: 755px;
-    background: rgb(239, 203, 199); 
+    background: rgb(247, 240, 226);  
     display: inline-block;
     width: 100%;  
 }
 #page4{ 
     height: 755px;
-    background: white; 
+    background: rgb(227, 213, 195);
     display: inline-block;
     width: 100%;  
 }
