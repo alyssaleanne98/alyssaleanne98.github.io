@@ -1,15 +1,10 @@
 html{ 
     scroll-behavior: smooth;
 }
-@media (min-width: 600px){
-    .column {
-        width: 50%;
-    }
-}
 body{
     margin: 0; 
     padding: 0; 
-    font-family: Ariel; 
+    font-family: Ariel;
 }
 nav{
     width: 100%;
@@ -25,11 +20,11 @@ nav{
 ul{
     padding: 5px;
     margin: 5;
+    overflow: hidden;
     list-style: none;
 }
 li{ 
     float: left;
-    opacity: 1; 
 }
 a{
     padding: 14px;
@@ -49,10 +44,9 @@ a{
 }
 .first-header{
     margin: 150px; 
-    text-align: right;
+    text-align: left;
     padding: 0;  
-    position: absolute;
-    margin-left: 10px;
+    position: left;
 }
 .rectangle1{
     width: 550px;
@@ -81,11 +75,25 @@ a{
     display: inline-block;
     width: 100%;  
 }
+.oval{
+    width: 350px;
+    height: 430px;
+    border-radius: 70%;
+    background-color: rgb(227, 213, 195);
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+.two-header{
+    margin: 100px; 
+    text-align: center; 
+}
 #page3{ 
     height: 755px;
     background: rgb(247, 240, 226);  
     display: inline-block;
     width: 100%;  
+    margin-top: 50px
 }
 #page4{ 
     height: 755px;
@@ -93,14 +101,3 @@ a{
     display: inline-block;
     width: 100%;  
 }
-
-/* h3{ 
-    margin: 100px; 
-    text-align: center;
-    padding: 0;
-}
-h4{ 
-    margin: 100px; 
-    text-align: center;
-    padding: 0;
-} */
