@@ -1,15 +1,11 @@
-// // mouse event 
-// const div = document.querySelector("first-header")
-// div.addEventListener("touch", e =>{
-//     console.log("You clicked the mouse");
-//     div.tagName = "hi";
-// })
+function mouseOver() {
+    document.getElementByClass("first-header").style.color ="white";
+}
+function mouseOut() {
+    document.getElementByClass("first-header").style.color = "red";
+}
 
-// function changeText(obj, text);
-// obj.innerText = text;
+// resource: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_html
 
 
-// function mouseOver(){
-//     document.getElementById("optimist").textContent = "dog-lover";
-// }
 
