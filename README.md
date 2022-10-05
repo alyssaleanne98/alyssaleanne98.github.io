@@ -5,22 +5,18 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
+|Day 1| Project Description | Complete
 |Day 2| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
 ## Wireframes
-
-![](img/Screen%20Shot%202022-09-28%20at%208.49.06%20PM.png)
-
-![](img/Screen%20Shot%202022-09-28%20at%208.51.11%20PM.png)
-
-![](img/Screen%20Shot%202022-09-28%20at%208.54.01%20PM.png)
-
-![](img/Screen%20Shot%202022-09-28%20at%208.56.50%20PM.png)
+![](images/Screen%20Shot%202022-09-28%20at%208.49.06%20PM.png)
+![](images/Screen%20Shot%202022-09-28%20at%208.51.11%20PM.png)
+![](images/Screen%20Shot%202022-09-28%20at%208.54.01%20PM.png)
+![](images/Screen%20Shot%202022-09-28%20at%208.56.50%20PM.png)
 
 
 ## Time/Priority Matrix 
@@ -29,13 +25,13 @@
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 |  | H | 1hr | hr |
-| Main navigation | H | 2hr | hr |
-| Layout and flex | H | 4hr | hr | 
-| Special effect/function on banner/introduction | M | 1.5hr|  hr | 
+| Main navigation | H | 2hr | 2hr |
+| Layout and flex | H | 4hr | 8hr | 
+| Special effect/function on banner/introduction | M | 1.5hr|  3hr | 
 | Email icon| M | 3hr | hr|
-| Responsiveness | H | 3hr | hr | hr |
+| Responsiveness | H | 3hr | 5hr | hr |
 | Project links | L | 1hr |  hr |
-| Total | H | 14.5hrs| hrs |
+| Total | H | 14.5hrs| hrs | 18 hrs
 
 
 #### PostMVP
@@ -62,4 +58,8 @@ function myCoolThing() {
 
 ## Issues and Resolutions
 
- Use this section to list of all major issues encountered and their resolution.
+ Major issues includes the following: 
+ 1. Layout of the entire website
+ 2. Formatting navigation bar
+ 3. Correcting the function of the navigation bar and directory.
+ 4. Positioning all elements and texts.
