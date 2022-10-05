@@ -73,7 +73,7 @@ a {
     position: absolute;
     right: 90px;
     bottom: 80px;
-    background-color: rgb(177, 213, 198);
+    background-color: rgb(210, 234, 224);
 }
 
 /* .rectangle2{
@@ -85,15 +85,15 @@ a {
 #page2 {
     height: 900px;
     background: rgb(227, 213, 195);
+    padding: 150px;
 }
 
 .me {
-    width: 25%;
-    height: 490px;
+    width: 30%;
+    height: 430px;
     border-radius: 70%;
-    float: left;
-    bottom: 50px;
-    left: 100px;
+    justify-content: center;
+    /* bottom: 20px; */
     border-style: solid;
     border-color: black;
     border-width: thin;
@@ -103,22 +103,24 @@ a {
 }
 
 .two-header {
-    margin: 50px;
+    padding: 15px;
     text-align: center;
     font-size: 30px;
+    /* padding: 20px; */
 }
 
 h3 {
+    /* padding: 40px; */
+    margin: 20px;
     text-align: center;
-    margin: 50px;
-    top: -100px;
+    /* top: 100px; */
     font-size: 20px;
 }
 
 p {
     text-align: center;
-    margin: 50px;
-    top: 100px;
+    margin: 10px;
+    /* top: 100px; */
     font-size: 15px;
 }
 
@@ -152,11 +154,63 @@ h1 {
     width: 20%;
     height: 305px;
     box-sizing: border-box;
-    border: 10px solid rgb(238, 196, 137);
+    border: 10px solid rgb(134, 131, 126);
     margin: 35px;
     font-size: 25px;
     text-align: center;
 }
+
+#page5{
+    height: 900px;
+    width: 100%;
+
+}
+body { background:rgb(238, 196, 137); }
+form { max-width:300px; margin:50px auto; }
+
+.feedback-input {
+  color: black;
+  font-family: 'yeseva one';
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  /* background-color: transparent; */
+  border:2px green;
+  transition: all 0.2s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid black; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'sans-serif';
+  width: 100%;
+  background:#a38d58;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:rgb(134, 131, 126); }
+
+/*https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/*/
 
 @media screen and (max-width: 600px) {
     nav {
