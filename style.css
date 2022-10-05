@@ -1,68 +1,73 @@
-
-html{ 
+html {
     scroll-behavior: smooth;
 }
-body{
-    margin: 0; 
-    padding: 0; 
+
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'yeseva one';
 }
-nav{
+
+nav {
     width: 100%;
     top: 0;
     background: rgb(247, 240, 226);
     overflow: hidden;
-    position: fixed; 
+    position: fixed;
     border-style: solid;
     z-index: 9999;
-    border-color:rgb(4, 3, 2);
+    border-color: rgb(4, 3, 2);
     border-width: thin;
 }
-ul{
+
+ul {
     padding: 5px;
     margin: 5;
     overflow: hidden;
     list-style: none;
 }
-li{ 
+
+li {
     float: left;
 }
-a{
+
+a {
     padding: 14px;
     width: 100%;
     text-decoration: none;
     text-transform: lowercase;
     color: black;
     font-size: 20px;
-    font-family: 'yeseva one';  
+    font-family: 'yeseva one';
     display: flex;
 }
-#page1{ 
+
+#page1 {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(
-      to right,
-      rgb(247, 240, 226) 0%,
-      rgb(247, 240, 226) 60%,
-      white 50%,
-      white 100%
-    ); 
+    background: linear-gradient(to right,
+            rgb(247, 240, 226) 0%,
+            rgb(247, 240, 226) 60%,
+            white 50%,
+            white 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-  } 
-  /* resource: https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
+}
 
-.first-header{
-    margin: 450px;  
+/* resource: https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
+
+.first-header {
+    margin: 450px;
     text-align: center;
     position: relative;
     font-size: 42px;
     left: -300px;
     right: 400px;
-    
+
 }
-.rectangle1{
+
+.rectangle1 {
     width: 550px;
     height: 440px;
     position: absolute;
@@ -70,138 +75,141 @@ a{
     bottom: 80px;
     background-color: rgb(177, 213, 198);
 }
-.rectangle2{
+
+/* .rectangle2{
     width: 550px;
     height: 440px;
     position: absolute;
     right: 110px;
+    background: rgb(227, 213, 195); */
+#page2 {
+    height: 900px;
     background: rgb(227, 213, 195);
 }
 
-#page2{ 
-    height: 900px;
-    background: rgb(227, 213, 195); 
-    display: inline-block;
-    width: 100%;  
-}
-/* img{
-    width: 17%;
-    position: relative;
-    margin: 40px 0px 0px 0px; */
-     
-.oval{
-    width: 22%;
-    height: 475px;
+.me {
+    width: 25%;
+    height: 490px;
     border-radius: 70%;
-    position: relative;
-    left: 140px;
+    float: left;
     bottom: 50px;
-    background-color: rgb(227, 213, 195);
+    left: 100px;
     border-style: solid;
     border-color: black;
     border-width: thin;
+    padding: 10px;
+
+
 }
-.two-header{
+
+.two-header {
     margin: 50px;
     text-align: center;
-    top: 100px;
+    font-size: 30px;
 }
-h3{
+
+h3 {
+    text-align: center;
+    margin: 50px;
+    top: -100px;
+    font-size: 20px;
+}
+
+p {
     text-align: center;
     margin: 50px;
     top: 100px;
-}
-p{
-    text-align: center;
-    margin: 50px; 
-    top: 100px;
+    font-size: 15px;
 }
 
 
-#page4{ 
+#page4 {
     height: 900px;
     background: rgb(247, 240, 226);
     display: inline-block;
-    width: 100%;  
+    width: 100%;
 }
-.four-header{
+
+.four-header {
     position: relative;
     top: 180px;
     left: 150px;
 }
-.container{
-    display: flex;
-    flex-flow: row wrap;
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-between;
 }
+
 .box {
     float: left;
-	padding: 0 8px;
-	width: 20%;
-	height: 310px;
-	box-sizing: border-box;
-    border: 1px solid black;
+    padding: 0 8px;
+    width: 20%;
+    height: 305px;
+    box-sizing: border-box;
+    border: 10px solid rgb(238, 196, 137);
     margin: 35px;
-    line-height: 120px; 
-    font-size: 30px; 
+    font-size: 25px;
+    text-align: center;
 }
+
 @media screen and (max-width: 600px) {
-    nav{
+    nav {
         width: 59%;
         height: 80px;
     }
-    a{
-        width: 71%;  
+
+    a {
+        width: 71%;
         font-size: 11px;
     }
+
     #page1 {
         width: 40%;
         /* margin: 100px 0 100px; */
     }
-    .first-header{
+
+    .first-header {
         /* margin: 200px 0 100px; */
         text-align: center;
         font-size: 15px;
     }
-    #page2{ 
+
+    #page2 {
         width: 83%;
     }
-    .oval{
+
+    .oval {
         width: 60%;
         height: 300px;
         left: 60px;
         top: 70px;
     }
-    /* two-header{
-        text-align: center;
-        font-size: 35px; 
-        top: 5px;  */
-    h3{
+
+    h3 {
         text-align: center;
         font-size: 15px;
     }
-    p{
-        margin: 25px; 
+
+    p {
+        margin: 25px;
         font-size: 12px;
         top: 55px;
     }
-    /* #page4{ 
-        width: 83%; 
-    } */
-    h1{
+
+    h1 {
         text-align: center;
         font-size: 27px;
     }
-    .container{
+
+    .container {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
     }
 }
-    /* .box {
-        width: 40px;
-        height: 40px;
-        box-sizing: border-box;
-        padding: 0 8px;
-    }
-} */
