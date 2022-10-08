@@ -31,7 +31,7 @@
 | Email icon| M | 3hr | 3hr|
 | Responsiveness | H | 3hr | 5hr | hr |
 | Project links | L | 1hr |  1hr |
-| Total | H | 14.5hrs| hrs | 26 hrs
+| Total | H | 14.5hrs| 26hrs | hrs
 
 
 #### PostMVP
