@@ -6,73 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
-    <Link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="#page1">home</a> </li>
-            <li><a href="#page2">about</a> </li>
-            <!-- <li><a href ="#page3">skills & tools</a> </li> -->
-            <li><a href="#page4">work</a> </li>
-            <li><a href="#page5">contact</a></li>
+            <li><a href="#page1">home</a></li>
+            <li><a href="#page2">about</a></li>
+            <li><a href="#page3">work</a></li>
+            <li><a href="#page4">contact</a></li>
         </ul>
     </nav>
     <div id="page1">
-        <h1 class="first-header">Hello there, I'm Alyssa! I'm a scientist turned developer and optimist<h1>
-             <h1 class="rectangle1"></h1>
-             <!-- <img src="image.page1.jpeg" class="computer" alt="me"> -->
+        <div class="square"></div>
+        <h1 class="first-header">Hello there, I'm Alyssa! I'm a scientist turned developer and optimist</h1>
+        <img src="imagepage1.jpeg" class="computer" alt="computer">
 
-            
-        </div>
-
-    <div id="page2">
-        <div class="two-header">About me</div>
-        <h3>A curiosity-driven Software Engineering student at General Assembly</h3>
-        <p> I'm passionate about bringing both the technical and visual aspects of digital products to life. I have a
-            B.S in Nutrition and food science from San Jose State University. I'm the happiest when I am learning,
-            exploring, and solving deceptively simple problems. Reach out and say hello!</p>
-        <img src="IMG_4271.jpg" class="me" alt="me"> 
     </div>
+    <div id="page2">
+        <div class="text">
+            <h1>About me</h1>
+            <h3> A curiosity-driven Software Engineering student at General Assembly</h3>
+            <p>I'm passionate about bringing both the technical and visual aspects of digital products to life. I have a
+                B.S in Nutrition and food science from San Jose State University. I thrive the most when I am learning,
+                exploring, and solving deceptively simple problems. Reach out and say hello!</p>
+        </div>
+        <img src="IMG_0187 copy.jpg" class="profilepic" alt="profilepic">
 
-
-    <div id="page4">
-        <div class="four-header">
-            <h1> A selection of stuff I've built</h1>
-            <h3> Here is where I showcase a few of my projects completed throughout my journey at General Assembly.</h3>
+    </div>
+    <div id="page3">
+        <!-- <div class="three-header">A selection of stuff I've built</div> -->
+        <h3>Here is where I showcase a few of my projects completed throughout my journey as a developer!</h3>
 
         <div class="container">
             <div class="box one">
-                Project  
-                Coming soon!
+                Project coming soon!
             </div>
             <div class="box two">
-                Project
-                Coming soon!
+                Project coming soon!
             </div>
             <div class="box three">
-                Project 
-                Coming soon!
+                Project coming soon!
             </div>
             <div class="box four">
-                Project
-                Coming soon!
+                Project coming soon!
             </div>
         </div>
+    </div>
 
-    <div id="page5">
+
+
+    <div id="page4">
+        <!-- <div class="four-header">Get in touch</div> -->
+        <h3>I'd love to hear from you! Reach out to say hello, ask for my resume, or collaborate on a project! </h3>
         <div class="contact">
-            <form><input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <form><input name="name" type="text" class="feedback-input" placeholder="Name"/>
             <input name="email" type="text" class="feedback-input" placeholder="Email" />
             <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
             <input type="submit" value="SUBMIT"/>
-          </form>
+            </form>
         </div>
-
-
-            <script src="script.js"></script>
-
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

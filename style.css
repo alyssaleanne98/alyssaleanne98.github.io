@@ -1,148 +1,114 @@
 html {
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
-
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: 'yeseva one';
 }
 
-nav {
+nav{
     width: 100%;
     top: 0;
-    background: rgb(247, 240, 226);
+    background: white;
     overflow: hidden;
     position: fixed;
     border-style: solid;
     z-index: 9999;
-    border-color: rgb(4, 3, 2);
+    border-color: black; 
     border-width: thin;
 }
 
-ul {
-    padding: 5px;
+ul{
+    padding: 5px; 
     margin: 5;
     overflow: hidden;
     list-style: none;
 }
-
-li {
-    float: left;
+li{
+    float: left; 
 }
-
-a {
+a{
     padding: 14px;
     width: 100%;
     text-decoration: none;
     text-transform: lowercase;
-    color: black;
+    color: rgb(3, 4, 4);
     font-size: 20px;
     font-family: 'yeseva one';
     display: flex;
 }
-
 #page1 {
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to right,
-            rgb(247, 240, 226) 0%,
-            rgb(247, 240, 226) 60%,
-            white 50%,
-            white 100%);
     display: flex;
+    background: linear-gradient(to right,
+        rgb(249, 211, 211) 0%,
+        rgb(241, 219, 186) 60%,
+        rgb(255, 255, 254) 50%,
+        rgb(253, 253, 251)100%); 
     justify-content: center;
-    align-items: center;
-}
-
-/* resource: https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
-
-.first-header {
-    margin: 450px;
-    text-align: center;
+    align-items: center; 
+    min-height: 100vh;
+} 
+h1{
     position: relative;
-    font-size: 42px;
-    left: -300px;
-    right: 400px;
-
+    left: 30px;
 }
-
-.rectangle1 {
-    width: 550px;
-    height: 440px;
+.square{
+    height: 396px;
+    width: 35%;
+    background-color: rgb(248, 247, 232);
+    right: 120px;
     position: absolute;
-    right: 90px;
-    bottom: 80px;
-    background-color: rgb(210, 234, 224);
 }
-
-/* .rectangle2{
-    width: 550px;
-    height: 440px;
-    position: absolute;
-    right: 110px;
-    background: rgb(227, 213, 195); */
-#page2 {
-    height: 900px;
-    background: rgb(227, 213, 195);
+.computer{
+    height: 395px;
+    width: 75%;
     padding: 150px;
+    margin-top: 50px; 
+    z-index: 1; 
+}
+#page2{
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    background: rgb(243, 225, 176); 
+}
+.text{
+    width: 300px;
+    right: 10px;
+    align-items: center;
+    position: relative;
+    left: 850px;
+    top: 300px;
+
+}
+h1{
+    font-size: 60px;
+    color: rgb(7, 17, 79); 
 }
 
-.me {
-    width: 30%;
+.profilepic{
+    width: 22%;
     height: 430px;
     border-radius: 70%;
-    justify-content: center;
-    /* bottom: 20px; */
     border-style: solid;
     border-color: black;
     border-width: thin;
     padding: 10px;
-
+    position:relative;
+    left: 145px;
+    top: -90px;
 
 }
 
-.two-header {
-    padding: 15px;
-    text-align: center;
-    font-size: 30px;
-    /* padding: 20px; */
-}
-
-h3 {
-    /* padding: 40px; */
-    margin: 20px;
-    text-align: center;
-    /* top: 100px; */
-    font-size: 20px;
-}
-
-p {
-    text-align: center;
-    margin: 10px;
-    /* top: 100px; */
-    font-size: 15px;
-}
-
-
-#page4 {
-    height: 900px;
-    background: rgb(247, 240, 226);
-    display: inline-block;
+#page3{
     width: 100%;
+    /* display: flex; */
+    min-height: 70vh;
+    background: rgb(248, 232, 241);
 }
-
-.four-header {
-    position: relative;
-    top: 180px;
-    left: 150px;
-}
-
-h1 {
-    text-align: center;
-}
-
-.container {
+.container{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
@@ -151,119 +117,164 @@ h1 {
 .box {
     float: left;
     padding: 0 8px;
-    width: 20%;
-    height: 305px;
+    height: 150px;
+    width: 150px;
     box-sizing: border-box;
-    border: 10px solid rgb(134, 131, 126);
     margin: 35px;
+    text-align: center;
+    background-color: rgb(249, 246, 242);
+    flex-direction: row; 
+    border: 5px solid;
+}
+
+#page4{
+    width: 100%;
+    display: flex;
+    min-height: 90vh;
+    background: rgb(248, 233, 208);
+}
+.four-header{
+    font-size: 45px;
+}
+h3{
     font-size: 25px;
     text-align: center;
+    top: 150px;
 }
-
-#page5{
-    height: 900px;
-    width: 100%;
-
+form {
+    max-width: 300px;
+    margin: 50px;
+    float: center;
+    bottom: 30px;
 }
-body { background:rgb(238, 196, 137); }
-form { max-width:300px; margin:50px auto; }
-
 .feedback-input {
-  color: black;
-  font-family: 'yeseva one';
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  /* background-color: transparent; */
-  border:2px green;
-  transition: all 0.2s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
+    color: black;
+    font-family: 'yeseva one';
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 24px;
+    border: 2 px green;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
 }
 
-.feedback-input:focus { border:2px solid black; }
+.feedback-input:focus {border:2px solid black; }
 
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
+textarea{
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
 }
-
 [type="submit"] {
-  font-family: 'sans-serif';
-  width: 100%;
-  background:#a38d58;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+    font-family: 'yeseva one';
+    width: 100%;
+    background: white;
 }
-[type="submit"]:hover { background:rgb(134, 131, 126); }
 
-/*https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/*/
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
+    html{
+        scroll-behavior: smooth;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* position: relative; */
+        /* overflow: hidden; */
+    }
     nav {
-        width: 59%;
-        height: 80px;
+        width: 93%;
+        height: 60px; 
+        font-size: 14px;
     }
-
-    a {
-        width: 71%;
-        font-size: 11px;
-    }
-
+    /* a{
+        width: 100%;
+        font-size: 12px; 
+    } */
     #page1 {
-        width: 40%;
-        /* margin: 100px 0 100px; */
+        height: 60px;
+        width: 100%;
+        background-color: pink;
+    } 
+
+    .square {
+        display: none;
+    } 
+
+    .computer {
+    display: none;
     }
 
-    .first-header {
-        /* margin: 200px 0 100px; */
-        text-align: center;
-        font-size: 15px;
+    .first-header { 
+        font-size: 40px;
     }
-
     #page2 {
-        width: 83%;
+        height: 100px;
+        width: 100%;
+        overflow: hidden; 
     }
-
-    .oval {
-        width: 60%;
+    h1{
+        font-size: 40px;  
+    }
+    .profilepic{
         height: 300px;
-        left: 60px;
-        top: 70px;
-    }
+        width: 160px;
+        margin-top: -200px;
+        left: 80px;
+    } 
+  
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh; 
+    } */
 
-    h3 {
-        text-align: center;
-        font-size: 15px;
+    /* h1{
+        font-size: 10px;
+        right: 1px;
+        position: 90px; */
+    #page2{
+        height: 60px;
+        width: 100%;
+        background: rgb(255, 237, 192);
+    } 
+    #page3{
+        height: 120px;
+        background-color: pink;
     }
-
-    p {
-        margin: 25px;
-        font-size: 12px;
-        top: 55px;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 27px;
-    }
-
-    .container {
-        display: flex;
-        flex-flow: row wrap;
+    /* .container{
+        flex-wrap: nowrap;
+        align-items: center;
         justify-content: space-between;
+    }
+    
+    .box {
+        float: left;
+        padding: 0 8px;
+        height: 150px;
+        width: 150px;
+    } */
+    #page4{
+        height: 60px;
+        width: 100%;
+    } 
+    .contact{
+        width: 60%;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+        top: 150px;
+    }
+    form {
+        max-width: 600px; 
     }
 }
